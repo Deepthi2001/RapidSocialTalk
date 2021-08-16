@@ -1,0 +1,4 @@
+/node_modules
+node_modules/
+/chatsFrontend/node_modules/
+# .env
