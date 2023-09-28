@@ -6,7 +6,6 @@ const ChatsPage = () => {
 
     const fetchChats = async() => {
         const { data } = await axios.get("/chats");
-        console.log("dat",data)
         setChats(data)
     }
 

@@ -17,8 +17,6 @@ const HomePage = () => {
     setValue(newValue);
   };
 
-  console.log("value",value)
-
   return (
       <StyledContainer maxWidth="sm">
         <Box sx={{bgcolor: 'white', opacity: 0.8, borderRadius: '10px', padding: '10% 0%', color: 'whitesmoke !important'}}>
